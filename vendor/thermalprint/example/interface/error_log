@@ -1,0 +1,7 @@
+[02-Jul-2020 19:15:30 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/agencia/public_html/cellstore/vendor/thermalprint/example/interface/windows-usb.php on line 3
+[02-Jul-2020 19:16:33 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/agencia/public_html/cellstore/vendor/thermalprint/example/interface/windows-usb.php on line 3
+[02-Jul-2020 19:16:57 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/agencia/public_html/cellstore/vendor/thermalprint/example/interface/windows-usb.php on line 3
+[02-Jul-2020 19:50:39 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/agencia/public_html/cellstore/vendor/thermalprint/example/interface/windows-usb.php on line 3
+[02-Jul-2020 19:50:52 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/agencia/public_html/cellstore/vendor/thermalprint/example/interface/windows-usb.php on line 3
+[02-Jul-2020 19:50:54 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/agencia/public_html/cellstore/vendor/thermalprint/example/interface/windows-usb.php on line 3
+[02-Jul-2020 19:50:58 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/agencia/public_html/cellstore/vendor/thermalprint/example/interface/windows-usb.php on line 3

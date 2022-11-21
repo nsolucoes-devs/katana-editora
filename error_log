@@ -1,0 +1,50 @@
+[08-Nov-2022 12:01:57 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:01:57 UTC] PHP Warning:  chmod(): No such file or directory in /home/agencia/public_html/datacom/index.php(1) : runtime-created function on line 1
+[08-Nov-2022 12:01:59 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:02:00 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:02:00 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:02:16 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:32 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:35 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:36 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:36 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:36 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:38 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:42 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:43 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:44 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:58 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:58 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:59 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:03:59 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:04:28 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:04:28 UTC] PHP Warning:  chmod(): No such file or directory in /home/agencia/public_html/datacom/index.php(1) : runtime-created function on line 1
+[08-Nov-2022 12:04:30 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[08-Nov-2022 12:04:31 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/agencia/public_html/datacom/index.php on line 1
+[09-Nov-2022 18:36:10 UTC] PHP Warning:  POST Content-Length of 62950285 bytes exceeds the limit of 52428800 bytes in Unknown on line 0
+[09-Nov-2022 18:36:12 UTC] PHP Warning:  POST Content-Length of 62950285 bytes exceeds the limit of 52428800 bytes in Unknown on line 0
+[09-Nov-2022 19:35:33 UTC] PHP Fatal error:  Class 'Admin_Controller' not found in /home/agencia/public_html/datacom/application/controllers/admin/Adminestoque.php on line 4
+[09-Nov-2022 19:37:24 UTC] PHP Fatal error:  Class 'Admin_Controller' not found in /home/agencia/public_html/datacom/application/controllers/admin/Adminestoque.php on line 4
+[09-Nov-2022 19:37:25 UTC] PHP Fatal error:  Class 'Admin_Controller' not found in /home/agencia/public_html/datacom/application/controllers/admin/Adminestoque.php on line 4
+[09-Nov-2022 19:37:46 UTC] PHP Fatal error:  Class 'Admin_Controller' not found in /home/agencia/public_html/datacom/application/controllers/admin/Adminestoque.php on line 4
+[09-Nov-2022 19:37:48 UTC] PHP Fatal error:  Class 'Admin_Controller' not found in /home/agencia/public_html/datacom/application/controllers/admin/Adminestoque.php on line 4
+[09-Nov-2022 19:37:51 UTC] PHP Fatal error:  Class 'Admin_Controller' not found in /home/agencia/public_html/datacom/application/controllers/admin/Adminestoque.php on line 4
+[09-Nov-2022 19:37:57 UTC] PHP Fatal error:  Class 'Admin_Controller' not found in /home/agencia/public_html/datacom/application/controllers/admin/Adminestoque.php on line 4
+[09-Nov-2022 19:37:58 UTC] PHP Fatal error:  Class 'Admin_Controller' not found in /home/agencia/public_html/datacom/application/controllers/admin/Adminestoque.php on line 4
+[10-Nov-2022 11:51:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/agencia/public_html/datacom/application/controllers/Chat.php on line 22
+[10-Nov-2022 11:51:41 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/agencia/public_html/datacom/application/controllers/Chat.php on line 22
+[10-Nov-2022 10:17:05 America/Sao_Paulo] PHP Fatal error:  Call to a member function result_array() on a non-object in /home/agencia/public_html/datacom/application/models/Estoque.php on line 82
+[10-Nov-2022 10:18:28 America/Sao_Paulo] PHP Fatal error:  Call to a member function result_array() on a non-object in /home/agencia/public_html/datacom/application/models/Estoque.php on line 82
+[10-Nov-2022 10:46:09 America/Sao_Paulo] PHP Fatal error:  Call to a member function result_array() on a non-object in /home/agencia/public_html/datacom/application/models/Estoque.php on line 82
+[10-Nov-2022 10:48:27 America/Sao_Paulo] PHP Fatal error:  Call to a member function result_array() on a non-object in /home/agencia/public_html/datacom/application/models/Estoque.php on line 82
+[10-Nov-2022 12:06:17 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'text' (T_STRING) in /home/agencia/public_html/datacom/application/models/Estoque.php on line 182
+[10-Nov-2022 14:48:42 America/Sao_Paulo] PHP Fatal error:  Call to a member function getEstoqueSite() on a non-object in /home/agencia/public_html/datacom/application/controllers/Servico.php on line 222
+[10-Nov-2022 14:48:43 America/Sao_Paulo] PHP Fatal error:  Call to a member function getEstoqueSite() on a non-object in /home/agencia/public_html/datacom/application/controllers/Servico.php on line 222
+[10-Nov-2022 14:49:16 America/Sao_Paulo] PHP Fatal error:  Call to a member function getEstoqueSite() on a non-object in /home/agencia/public_html/datacom/application/controllers/Servico.php on line 222
+[10-Nov-2022 14:49:22 America/Sao_Paulo] PHP Fatal error:  Call to a member function getEstoqueSite() on a non-object in /home/agencia/public_html/datacom/application/controllers/Servico.php on line 222
+[10-Nov-2022 14:49:24 America/Sao_Paulo] PHP Fatal error:  Call to a member function getEstoqueSite() on a non-object in /home/agencia/public_html/datacom/application/controllers/Servico.php on line 222
+[10-Nov-2022 14:49:29 America/Sao_Paulo] PHP Fatal error:  Call to a member function row_array() on a non-object in /home/agencia/public_html/datacom/application/models/Servicos.php on line 267
+[10-Nov-2022 14:49:30 America/Sao_Paulo] PHP Fatal error:  Call to a member function row_array() on a non-object in /home/agencia/public_html/datacom/application/models/Servicos.php on line 267
+[10-Nov-2022 14:50:30 America/Sao_Paulo] PHP Fatal error:  Call to a member function row_array() on a non-object in /home/agencia/public_html/datacom/application/models/Servicos.php on line 267
+[10-Nov-2022 14:50:31 America/Sao_Paulo] PHP Fatal error:  Call to a member function row_array() on a non-object in /home/agencia/public_html/datacom/application/models/Servicos.php on line 267
