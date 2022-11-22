@@ -165,6 +165,7 @@ class Inicio extends Public_Controller
                         'servico_desconto     ' => $d['servico_desconto'],
                         'servico_qtd_parcela'   => $d['servico_qtd_parcela'],
                         'servico_parcelamento'  => $d['servico_parcelamento'],
+                        'servico_resumo'        => $d['servico_resumo'],
                         //'produto_promocao'      => $valor_promocao,
                         //'produto_porcentagem'   => $porcentagem_promocao,
                     );

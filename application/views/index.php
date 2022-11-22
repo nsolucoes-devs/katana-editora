@@ -82,7 +82,7 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
 
                 <div class="row w-100 p-5 m-5 background-about">
                     <div class="col-md-4">
-                        <img class="d-block img-fluid" src="<?php echo base_url('imagens/logo/l7.png') ?>">
+                        <img class="img-fluid" src="<?php echo base_url('imagens/logo/l7.png') ?>">
                     </div>
                     <div class="col-md-8">
                         <h4 class="title-text float-left">Conheça a editora:</h4>
@@ -148,14 +148,14 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
                                                 <h4 class="m-4 p-0 title text-center">
                                                     <?php echo ucfirst($row['servico_nome']) ?>                                            
                                                 </h4>
-                                                <h6 class="card-text sub-title">
-                                                    Modelo: <?php echo ucfirst($row['servico_subtitulo']) ?>
-                                                    |  R$ <?php echo number_format($row['servico_valor'], 2,',','.') ?>
-                                                </h6>
-                                                <p class="card-text">
+                                                <p class="card-text text-justify w-50">
                                                     <?php echo ucfirst($row['servico_resumo']) ?>
                                                 </p>
-                                                <button class="btn btn-primary btn-block">
+                                                <h6 class="card-text sub-title">
+                                                    <?php echo ucfirst($row['servico_subtitulo']) ?>
+                                                    |  R$ <?php echo number_format($row['servico_valor'], 2,',','.') ?>
+                                                </h6>
+                                                <button class="btn btn-primary w-50">
                                                     <span>Comprar</span>
                                                 </button>
                                             </div>

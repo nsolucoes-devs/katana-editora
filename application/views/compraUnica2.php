@@ -600,12 +600,12 @@
                                                 <!--onclick="liberaCompra()"-->
                                             </div>
                                             <div class="col-12 form-group">
-                                                <button id="buttonFinalizar" onclick="finalizaCompra()" type="button" class="g-recaptcha btn btn-primary btn-block btn-lg mx-auto" data-sitekey="<?php echo $chave['chave_site'] ?>" disabled>
+                                                <button id="buttonFinalizar" onclick="finalizaCompra()" type="button" class=" btn btn-primary btn-block btn-lg mx-auto" disabled>
                                                     Finalizar Pedido
                                                 </button>
                                             </div>
                                             <div class="col-12 form-group">
-                                                <button onclick="window.location.href='<?php echo base_url(); ?>'" style="" type="button" class="btn btn-secondary btn-block btn-lg mx-auto">
+                                                <button onclick="window.location.href='<?php echo base_url(); ?>'" style="" type="button" class="btn-block btn-lg mx-auto">
                                                     <i class="fas fa-shopping-cart"></i> Continuar Comprando
                                                 </button>
                                             </div>
@@ -628,7 +628,7 @@
                                         <form method="post" action="<?php echo base_url('finalizaUnico/cupom') ?>">
                                             <div class="input-group mb-3">
                                                 <input type="text" id="cupom" name="cupom" class="form-control" placeholder="Digite seu cupom">
-                                                <button type="submit" class="g-recaptcha btn btn-primary" data-sitekey="<?php echo $chave['chave_site'] ?>">
+                                                <button type="submit" class="btn btn-primary">
                                                     <i class="fa fa-search" aria-hidden="true"></i>
                                                 </button>
                                             </div>
@@ -1160,7 +1160,7 @@
 
     <script src="<?php echo base_url('recursos/lib/sweetalert2/dist/sweetalert2.min.js'); ?>"></script>
     <script src="<?php echo base_url('recursos/js/material/plugins/sweetalert2.js'); ?>"></script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
     <script src="https://assets.pagar.me/checkout/1.1.0/checkout.js"></script>
 
     <!-- SCRIPTS DO CARRINHO INICIO -->
