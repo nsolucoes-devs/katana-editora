@@ -605,9 +605,9 @@
                                                 </button>
                                             </div>
                                             <div class="col-12 form-group">
-                                                <button onclick="window.location.href='<?php echo base_url(); ?>'" class="btn-block btn-lg mx-auto btn-link">
-                                                    <i class="fas fa-shopping-cart"></i> Continuar Comprando
-                                                </button>
+                                                <a onclick="window.location.href='<?php echo base_url(); ?>'" class="btn-block btn-lg mx-auto btn-link">
+                                                    Continuar Comprando
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
