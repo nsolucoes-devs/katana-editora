@@ -220,11 +220,6 @@
                     <div class="tab-pane fade" id="textos" role="tabpanel" aria-labelledby="textos-tab">
                         <div class="col-md-12" style="margin-top: 3%">
                             <div class="row">
-                                <div class="col-md-12 form-group" style="margin-top: 6%">
-                                    <label><b>Sobre a loja:</b></label>
-                                    <div class="editor" id="editor"><?php echo $site['sobre_loja'] ?></div>
-                                    <textarea name="desc" id="desc" style="display: none"></textarea>
-                                </div>
 
                                 <div class="col-md-12 form-group" style="margin-top: 6%">
                                     <label><b>Política de privacidade:</b></label>
