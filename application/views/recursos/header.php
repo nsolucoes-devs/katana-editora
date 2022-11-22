@@ -981,7 +981,7 @@ if ($this->session->userdata('cliente_nome')) {
                 <div class="container-fluid">
                     <div class="align-items-center d-flex justify-content-center row w-100">
                         <div class="col-3">
-                            <a class="mobile-link-logo-pos" href="<?php echo base_url('') ?>"><img class="img-fluid" src="<?php echo base_url('imagens/logo/l3.png') ?>" alt="logo" title="DataCom Notebook e Informática"></a>
+                            <a class="mobile-link-logo-pos" href="<?php echo base_url('') ?>"><img class="img-fluid" src="<?php echo base_url('imagens/logo/l3.png') ?>" alt="logo" title="Katana Editora"></a>
                         </div>
                         <div class="col-6 text-center px-5">
                             <form id="buscador" action="<?php echo base_url('servico/buscaServicos'); ?>" method="post">
@@ -1118,7 +1118,7 @@ if ($this->session->userdata('cliente_nome')) {
                                     <div class="d-block mobile_menu">
                                         <div class="row" style="margin-bottom: -5%;">
                                             <div class="col-6 text-center">
-                                                <a class="mobile-link-logo-pos" href="<?php echo base_url('') ?>"><img class="mobile-logo" src="<?php echo base_url('imagens/logo/l3.png') ?>" alt="logo" title="DataCom Notebook e Informática"></a>
+                                                <a class="mobile-link-logo-pos" href="<?php echo base_url('') ?>"><img class="mobile-logo" src="<?php echo base_url('imagens/logo/l3.png') ?>" alt="logo" title="Katana Editora"></a>
                                             </div>
 
                                             <div class="col-6 text-right usuario-mobile" style="position: relative; right: 0; top: 0; padding: 5% 10%;">

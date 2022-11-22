@@ -326,7 +326,7 @@ class PagamentoSTN extends CI_Controller {
 
         $this->email->initialize($config);
         
-        $this->email->from($gestoremail['email_user'], 'DataCom Informática');
+        $this->email->from($gestoremail['email_user'], $site['nome_empresa']);
         $this->email->to(strtolower($cliente['cliente_email'])); 
         $this->email->subject($site['nome_empresa']);
         $this->email->message($this->sendemail->mailbody($data)); 
@@ -410,7 +410,7 @@ class PagamentoSTN extends CI_Controller {
 
         $this->email->initialize($config);
 
-        $this->email->from($gestoremail['email_user'], 'Espaço Cachos');
+        $this->email->from($gestoremail['email_user'], $site['nome_empresa']);
         $this->email->to(strtolower($afiliado['afiliado_email']));
         $this->email->subject('Você fez uma nova venda');
         $this->email->message($this->sendemail->mailbody4($data));
