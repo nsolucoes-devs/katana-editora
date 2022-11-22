@@ -73,7 +73,7 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
     }
 
     .img-fluid {
-        max-width: 80px;
+        max-width: 80%;
     }
 
 </style>
@@ -144,7 +144,7 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
                             <div class="card zoom mx-auto">
                                 <div class="card-body">
                                     <a href="<?php echo base_url('e9b8ed001f1726b0385dcfec2dbe2ea1/'). $row['servico_id'] ?>">
-                                        <div class="form-group row p-5">
+                                        <div class="form-group row p-5 text-center">
                                             <div class="text-center col-md-6">
                                                 <img class="d-block img-fluid image-card" src="<?php echo base_url($row['servico_imagem']) ?>">
                                             </div>                                    

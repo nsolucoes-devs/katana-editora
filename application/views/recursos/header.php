@@ -996,18 +996,36 @@ if ($this->session->userdata('cliente_nome')) {
                                 </div>
                             </form> 
                         </div>
-                        <div class="col-3 d-flex justify-content-center">
-                            <i class="fa fa-user-circle fa-2x text-light icon-user"></i>                                
-                            <div class="text-light text-left ml-3">
-                                Faça <a style="font-weight: 500; color:gray;" href="<?php echo base_url('2b1e190210df261675c4b801bc6e8989') ?>">Login</a>
-                                ou <br>
-                                <span>crie seu 
-                                    <a style="font-weight: 500; color:gray;" href="<?php echo base_url('2b1e190210df261675c4b801bc6e8989') ?>">
-                                        Cadastro
-                                    </a>
-                                </span>
+                        <?php if ($this->session->userdata('cliente_logado')) {
+                            if ($this->session->userdata('cliente_logado') == 1) { ?>
+                                <ul class="text-center" style="display: contents;">
+                                    <li class="menu-li position-logado" style="position: relative;top: 20px;left: 80px;">
+                                        <a class="menu-link menu-a" href="<?= isset($_SESSION) && $_SESSION['perfil'] == 'afiliado' ? base_url('painelAfiliado'): base_url('2b1e190210df261675c4b801bc6e8989')?>" <?php if ($idpag == 6) { echo 'style="color: #f9c716"';} ?>>
+                                            <i style="font-size: 30px" class="fa fa-user-circle" aria-hidden="true"></i>
+                                            <span style="font-size: 15px; padding-left: 5px; position: relative; bottom: 7%;">
+                                                <?php 
+                                                    echo 'Olá, ' . ucfirst(strtolower(explode(' ', $cliente_nome)[0])) . " !";
+                                                ?>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            <?php } ?>
+                        <?php } else { ?>
+                            <div class="col-3 d-flex justify-content-center">
+                                <i class="fa fa-user-circle fa-2x text-light icon-user"></i>                                
+                                <div class="text-light text-left ml-3">
+                                    Faça <a style="font-weight: 500; color:gray;" href="<?php echo base_url('2b1e190210df261675c4b801bc6e8989') ?>">Login</a>
+                                    ou <br>
+                                    <span>crie seu 
+                                        <a style="font-weight: 500; color:gray;" href="<?php echo base_url('2b1e190210df261675c4b801bc6e8989') ?>">
+                                            Cadastro
+                                        </a>
+                                    </span>
+                                </div>
                             </div>
-                        </div>
+                        <?php } ?>
+                        
                     </div>                
                 </div>
             </nav>
