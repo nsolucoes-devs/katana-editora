@@ -143,10 +143,10 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
                                 <div class="card-body">
                                     <a href="<?php echo base_url('e9b8ed001f1726b0385dcfec2dbe2ea1/') . $row['servico_id'] ?>">
                                         <div class="form-group row p-5 text-center">
-                                            <div class="text-center col-md-6">
+                                            <div class="text-center col-md-12">
                                                 <img class="image-card" src="<?php echo base_url($row['servico_imagem']) ?>">
                                             </div>
-                                            <div class="col-xl-6 m-auto">
+                                            <div class="col-xl-12 m-auto">
                                                 <h4 class="m-4 p-0 title text-center">
                                                     <?php echo ucfirst($row['servico_nome']) ?>
                                                 </h4>
