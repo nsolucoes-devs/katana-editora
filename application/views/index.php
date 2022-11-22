@@ -51,7 +51,7 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
 
     .sub-title {
         text-align: center;
-        font-size: 14px;
+        font-size: 20px;
         color: black;
     }
 
@@ -69,7 +69,7 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
     }
 
     .title-text {
-        font-size: 25px;
+        font-size: 30px;
         color: black;
     }
 

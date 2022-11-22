@@ -653,7 +653,7 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
                             <ul>
                                 <li style="color: white; font-size: 14px; list-style-type: none; font-weight:bold; padding-bottom: 7px;">Sobre</li>
                                 <li style="color: white; font-size: 14px; list-style-type: none; padding-bottom: 7px;">
-                                    <a style="color: white; cursor: pointer;" data-toggle="modal" data-target="#nossaloja">
+                                    <a style="color: white; cursor: pointer;" href="<?= @$instagram ?>" target="_blank">
                                         Visite nossa perfil <i class="ml-2 fa-2x fab fa-instagram" aria-hidden="true" style="color: #bdbdbd;"></i>
                                     </a>
                                 </li>
