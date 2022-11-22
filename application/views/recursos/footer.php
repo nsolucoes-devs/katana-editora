@@ -632,9 +632,6 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
                             </li>
                             <li style="color: white; font-size: 14px; list-style-type: none; padding-bottom: 7px;"><i class="fas fa-envelope text-primary me-2" style="color: #bdbdbd !important;"></i>&nbsp contato@katanaeditora.com.br
                             </li>
-                            <a href="https://www.instagram.com/katanaeditora" target="_blank">
-                                <i class="social-footer fab fa-instagram" aria-hidden="true" style="color: #bdbdbd;"></i>
-                            </a>
                         </ul>
                     <?php //if(isset($endereco)){ 
                     ?>
@@ -655,7 +652,11 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
                         <div style="">
                             <ul>
                                 <li style="color: white; font-size: 14px; list-style-type: none; font-weight:bold; padding-bottom: 7px;">Sobre</li>
-                                <li style="color: white; font-size: 14px; list-style-type: none; padding-bottom: 7px;"><a style="color: white; cursor: pointer;" data-toggle="modal" data-target="#nossaloja">Nossa Loja</a></li>
+                                <li style="color: white; font-size: 14px; list-style-type: none; padding-bottom: 7px;">
+                                    <a style="color: white; cursor: pointer;" data-toggle="modal" data-target="#nossaloja">
+                                        Visite nossa perfil <i class="ml-2 fa-2x fab fa-instagram" aria-hidden="true" style="color: #bdbdbd;"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
