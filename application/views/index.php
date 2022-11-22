@@ -137,7 +137,7 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
 
                 <div class="row w-100 p-5">
                     <div class="col-xl-12 col-md-12 col-12 p-3">
-                        <h3 class="title">Adquira nosso livros:</h3>
+                        <h3 class="title">Adquira nosso livro:</h3>
                         <?php foreach ($destaques as $row) { ?>
                             <div class="card zoom mx-auto">
                                 <div class="card-body">

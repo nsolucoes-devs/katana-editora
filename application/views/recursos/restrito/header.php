@@ -366,7 +366,7 @@
                                                     <a href="<?php echo base_url('admin/adminhistoricos/listhistoric') ?>"><p class="bb">Históricos</p></a>
                                                 <?php } ?>-->
                                                 <?php //if($perm['perfilusuario_solicitacao'] == 1 || $super == 1) { ?>
-                                                    <a href="<?php echo base_url('admin/adminchats/chats') ?>"><p class="bb">Chats</p></a>
+                                                    <a href="<?php echo base_url('admin/adminchats/chats') ?>"><p>Chats</p></a>
                                                 <?php //} ?>
                                             </div>
                                         </div>
