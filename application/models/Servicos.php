@@ -143,7 +143,7 @@ class Servicos extends CI_Model {
             servico_dataInicial,
             servico_dataFinal,
         ');$this->db->order_by('rand()');
-        $this->db->limit(6);
+        $this->db->limit(4);
         $query = $this->db->get('servicos');
         return $query->result_array();
     }

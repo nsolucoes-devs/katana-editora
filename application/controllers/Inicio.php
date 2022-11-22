@@ -142,7 +142,7 @@ class Inicio extends Public_Controller
         $dadosHeader['home']                = 1;
 
 
-        $produtos_destaque  = $this->servicos->getAllDestaques();
+        $produtos_destaque  = $this->servicos->getRandom();
         $cont            = 0;
         $destaques        = [];
         foreach ($produtos_destaque as $d) {
