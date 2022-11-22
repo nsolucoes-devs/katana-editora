@@ -40,6 +40,7 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
 
     .image-card {
         max-width: 50%;
+        height: auto;
     }
 
     .title {
@@ -146,7 +147,7 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
                                     <a href="<?php echo base_url('e9b8ed001f1726b0385dcfec2dbe2ea1/'). $row['servico_id'] ?>">
                                         <div class="form-group row p-5 text-center">
                                             <div class="text-center col-md-6">
-                                                <img class="d-block img-fluid image-card" src="<?php echo base_url($row['servico_imagem']) ?>">
+                                                <img class="image-card" src="<?php echo base_url($row['servico_imagem']) ?>">
                                             </div>                                    
                                             <div class="col-xl-6 m-auto" >
                                                 <h4 class="m-4 p-0 title text-center">
@@ -159,7 +160,7 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
                                                     <?php echo ucfirst($row['servico_subtitulo']) ?>
                                                     |  R$ <?php echo number_format($row['servico_valor'], 2,',','.') ?>
                                                 </h6>
-                                                <button class="btn btn-primary w-75 mx-auto">
+                                                <button class="btn btn-primary w-75 mx-auto text-uppercase">
                                                     <span>Comprar</span>
                                                 </button>
                                             </div>

@@ -381,7 +381,7 @@
                                 <?php foreach ($carrinho as $cart) { ?>
                                     <div class="row" style="margin-top:3%">
                                         <div class="col-xl-3">
-                                            <img style="height: 90px;width: auto;position: relative;top: -3px;" src="<?php echo $cart['imagem']; ?>">
+                                            <img style="height: 90px;width: auto;position: relative;top: -3px;" src="<?php echo base_url($cart['imagem']); ?>">
                                         </div>
                                         <div class="col-xl-2">
                                             <p style="font-size: 13px;color: grey;position: absolute;top: -16px;left: -85px;">Produto</p>

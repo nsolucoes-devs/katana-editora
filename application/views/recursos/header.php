@@ -999,7 +999,7 @@ if ($this->session->userdata('cliente_nome')) {
                         <?php if ($this->session->userdata('cliente_logado')) {
                             if ($this->session->userdata('cliente_logado') == 1) { ?>
                                 <ul class="text-center" style="display: contents;">
-                                    <li class="menu-li position-logado" style="position: relative;top: 20px;left: 80px;">
+                                    <li class="menu-li position-logado">
                                         <a class="menu-link menu-a" href="<?= isset($_SESSION) && $_SESSION['perfil'] == 'afiliado' ? base_url('painelAfiliado'): base_url('2b1e190210df261675c4b801bc6e8989')?>" <?php if ($idpag == 6) { echo 'style="color: #f9c716"';} ?>>
                                             <i style="font-size: 30px" class="fa fa-user-circle" aria-hidden="true"></i>
                                             <span style="font-size: 15px; padding-left: 5px; position: relative; bottom: 7%;">
