@@ -540,7 +540,6 @@
                                                 </div>
                                             <?php } ?>
                                         </div>
-                                        <hr style="height: 1px; border-color: #efefef; margin-top: 5px; margin-bottom: 10px">
                                         <button <?php if (!isset($ignora)) {
                                                     if ($servico['servico_livre'] == 0) {
                                                         echo "onclick='Alerta()'";
@@ -578,54 +577,6 @@
                         </div>
                     </div>
                 </div>
-                <section id="veja-tbm" class="container" style="">
-                    <div class="bbb_viewed_title_container container">
-                        <h3 class="bbb_viewed_title">Veja Também</h3>
-                    </div>
-                    <div class="row mx-auto" style="margin-top:2%">
-                        <?php $cont = 1;
-                        foreach ($vejatbm as $vj) { ?>
-                            <?php $aux_nome = explode(' ', $vj['servico_nome'], 2) ?>
-                            <div class="col-md-2 form-group" style="<?php if ($mobile == 1) { ?> width: 60%; <?php if ($cont % 2 == 0) {
-                                                                                                                echo 'margin-right: -10%;';
-                                                                                                            } else {
-                                                                                                                echo 'margin-left: -10%;';
-                                                                                                            } ?><?php } ?>">
-                                <div class="card zoom card-relacionados" style="border-radius: 7px;">
-                                    <div class="card-body" style="height: 260px; border-bottom: 7px solid gray; border-radius: 7px;">
-                                        <a href="<?php echo base_url('e9b8ed001f1726b0385dcfec2dbe2ea1/') . $vj['servico_id'] ?>">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <img class="d-block mx-auto limite-largura-prod2-img" style="height: 100px; width: auto; max-width: 105px;" src="<?php echo base_url($vj['servico_imagem']) ?>">
-                                                </div>
-
-                                                <div class="col-md-12 text-center">
-                                                    <p class="text-center stars">
-                                                        <i style="color: gold" class="fa fa-star" aria-hidden="true"></i>
-                                                        <i style="color: gold" class="fa fa-star" aria-hidden="true"></i>
-                                                        <i style="color: gold" class="fa fa-star" aria-hidden="true"></i>
-                                                        <i style="color: gold" class="fa fa-star" aria-hidden="true"></i>
-                                                        <i style="color: gold" class="fa fa-star" aria-hidden="true"></i>
-                                                    </p>
-                                                    <p class="text-center prod-departamento servico-titulo2"><span style="font-size: 13px;"><b style="color: #0b193c;"><?= ucfirst(mb_strtolower($vj['servico_nome'])) ?></b></span></p>
-                                                    <?php if ($vj['valor_desconto']) { ?>
-                                                        <strike class="old-preco" style="font-size: 13px">R$ <?php echo number_format($vj['servico_valor'], 2, ',', '.') ?></strike><br>
-                                                        <p class="text-center btn btn-primary prod-preco"><b class="prod-preco-txt" style="font-size: 14px; position: relative; bottom: 8px;">R$ <?php echo number_format($vj['valor_desconto'], 2, ',', '.') ?></b></p>
-                                                    <?php } else { ?>
-                                                        <strike hidden class="old-preco" style="font-size: 13px">R$ 9999,99</strike><br>
-                                                        <p class="text-center btn btn-primary prod-preco"><b class="prod-preco-txt" style="font-size: 14px; position: relative; bottom: 8px;">R$ <?php echo number_format($vj['servico_valor'], 2, ',', '.') ?></b></p>
-                                                    <?php }
-                                                    $cont++; ?>
-                                                    <!-- <button type="button" class="btn-main"><i style="font-size: 16px" class="fa fa-cart-plus" aria-hidden="true"></i> COMPRAR</button> -->
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php } ?>
-                    </div>
-                </section>
             </div>
         </section>
 

@@ -27,13 +27,13 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
         transition: all 0.3s ease-out;
         border: 0;
     }
-    
+
     .cards:hover {
         transform: translateY(-5px);
     }
-    
+
     .card p {
-        color:gray;
+        color: gray;
         font-size: 14px;
         text-align: center;
     }
@@ -61,7 +61,7 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
     }
 
     .text-about {
-        font-size:medium;
+        font-size: medium;
     }
 
     .background-about {
@@ -76,13 +76,12 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
     .img-fluid {
         max-width: 80%;
     }
-
 </style>
 
 
 <main style="position: relative; background: white;">
     <div class="section-content">
-        <div class="container-fluid p-3">            
+        <div class="container-fluid p-3">
             <div class="row justify-content-center pt-5">
 
                 <div class="row w-100 p-5 m-5 background-about">
@@ -91,12 +90,11 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
                     </div>
                     <div class="col-md-8 row align-items-center">
                         <h4 class="title-text float-left">Conheça a editora:</h4>
-                        <p class="text-about float-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>                           
+                        <p class="text-about float-left">
+                            Katana Editora é uma empresa familiar que teve origem na necessidade de publicar seus livros de forma que os autores/escritores se sentissem valorizados e pertencentes à família Katana.
+                            Esse acolhimento ocorre desde os primeiros contatos, passando os escritores a fazer parte da família, logo todas as ações e movimentações da Katana Editora com seus clientes se torna pessoal e visa o benefício de todos.
+                            Assim, faça parte da família Katana, a Editora que cuida dos seus clientes e investe na cultu
+                        </p>
                     </div>
                 </div>.
 
@@ -105,60 +103,59 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
                         <div class="card cards h-100">
                             <div class="card-body">
                                 <h4 class="card-title">Missão:</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                                    laboris nisi ut aliquip ex ea commodo consequat.
+                                <p class="card-text">
+                                    A Katana Editora tem como missão facilitar o processo de publicação de uma obra aumentando a interação entre o autor e a Editora. Além de valorizar os autores, fazendo uma parceria onde ambas as partes se beneficiam financeiramente desde o início do processo, ou seja, valorizando o tempo e dedicação que o autor desprendeu para a criação de sua obra.
                                 </p>
                             </div>
-                        </div> 
+                        </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="card cards h-100">
                             <div class="card-body">
                                 <h4 class="card-title">Visão:</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                     laboris nisi ut aliquip ex ea commodo consequat.
                                 </p>
                             </div>
-                        </div> 
+                        </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="card cards h-100">
                             <div class="card-body">
                                 <h4 class="card-title">Valores:</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                     laboris nisi ut aliquip ex ea commodo consequat.
                                 </p>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
-    
+
                 <div class="row w-100 p-5">
                     <div class="col-xl-12 col-md-12 col-12 p-3">
-                        <h3 class="title">Adquira nossos livros:</h3>
-                        <?php foreach($destaques as $row) { ?>
+                        <h3 class="title">Adquira nosso livros:</h3>
+                        <?php foreach ($destaques as $row) { ?>
                             <div class="card zoom mx-auto">
                                 <div class="card-body">
-                                    <a href="<?php echo base_url('e9b8ed001f1726b0385dcfec2dbe2ea1/'). $row['servico_id'] ?>">
+                                    <a href="<?php echo base_url('e9b8ed001f1726b0385dcfec2dbe2ea1/') . $row['servico_id'] ?>">
                                         <div class="form-group row p-5 text-center">
                                             <div class="text-center col-md-6">
                                                 <img class="image-card" src="<?php echo base_url($row['servico_imagem']) ?>">
-                                            </div>                                    
-                                            <div class="col-xl-6 m-auto" >
+                                            </div>
+                                            <div class="col-xl-6 m-auto">
                                                 <h4 class="m-4 p-0 title text-center">
-                                                    <?php echo ucfirst($row['servico_nome']) ?>                                            
+                                                    <?php echo ucfirst($row['servico_nome']) ?>
                                                 </h4>
                                                 <p class="card-text text-justify w-75 mx-auto">
                                                     <?php echo ucfirst($row['servico_resumo']) ?>
                                                 </p>
                                                 <h6 class="card-text sub-title">
                                                     <?php echo ucfirst($row['servico_subtitulo']) ?>
-                                                    |  R$ <?php echo number_format($row['servico_valor'], 2,',','.') ?>
+                                                    | R$ <?php echo number_format($row['servico_valor'], 2, ',', '.') ?>
                                                 </h6>
                                                 <button class="btn btn-primary w-75 mx-auto text-uppercase">
                                                     <span>Comprar</span>
@@ -169,11 +166,11 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
                                 </div>
                             </div>
                         <?php } ?>
-                    </div>  
+                    </div>
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
 
 </main>
 
