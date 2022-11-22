@@ -599,13 +599,13 @@
                                                 <input id="contrato-check" class="ml" type="checkbox">
                                                 <!--onclick="liberaCompra()"-->
                                             </div>
-                                            <div class="col-12 form-group">
+                                            <div class="col-12">
                                                 <button id="buttonFinalizar" onclick="finalizaCompra()" type="button" class=" btn btn-primary btn-block btn-lg mx-auto" disabled>
                                                     Finalizar Pedido
                                                 </button>
                                             </div>
                                             <div class="col-12 form-group">
-                                                <button onclick="window.location.href='<?php echo base_url(); ?>'" style="" type="button" class="btn-block btn-lg mx-auto">
+                                                <button onclick="window.location.href='<?php echo base_url(); ?>'" class="btn-block btn-lg mx-auto btn-link">
                                                     <i class="fas fa-shopping-cart"></i> Continuar Comprando
                                                 </button>
                                             </div>
