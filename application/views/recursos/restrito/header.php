@@ -306,12 +306,6 @@
                                                 <?php //if($perm['perfilusuario_departamento'] == 1 || $super == 1) { ?>
                                                     <a href="<?php echo base_url('admin/adminestoque/estoques') ?>"><p class="bb">Estoque</p></a>
                                                 <?php //} ?>
-                                                <?php //if($perm['perfilusuario_produto'] == 1 || $super == 1) { ?>
-                                                    <a href="<?php echo base_url('admin/admindestaques/destaques') ?>"><p class="bb">Destaques</p></a>
-                                                <?php //} ?>
-                                                <?php if($perm['perfilusuario_departamento'] == 1 || $super == 1) { ?>
-                                                    <a href="<?php echo base_url('48b6bbfcf12b55d9b0e4c2ded7384bff') ?>"><p class="bb">Departamentos</p></a>
-                                                <?php } ?>
                                                 <?php if($perm['perfilusuario_departamento'] == 1 || $super == 1) { ?>
                                                     <a href="<?php echo base_url('42f4c8bb06112b55d9b0e4c2f81203e5') ?>"><p>Depoimentos</p></a>
                                                 <?php } ?>
@@ -373,9 +367,6 @@
                                                 <?php } ?>-->
                                                 <?php //if($perm['perfilusuario_solicitacao'] == 1 || $super == 1) { ?>
                                                     <a href="<?php echo base_url('admin/adminchats/chats') ?>"><p class="bb">Chats</p></a>
-                                                <?php //} ?>
-                                                <?php //if($perm['perfilusuario_solicitacao'] == 1 || $super == 1) { ?>
-                                                    <a href="<?php echo base_url('admin/adminafiliados/afiliados') ?>"><p>Afiliados</p></a>
                                                 <?php //} ?>
                                             </div>
                                         </div>

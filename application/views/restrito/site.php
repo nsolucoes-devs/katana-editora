@@ -136,18 +136,18 @@
                     <!--<li class="nav-item">-->
                     <!--    <a class="nav-link" id="banners-tab" data-toggle="tab" href="#banners" role="tab" aria-controls="banners" aria-selected="true">E-book</a>-->
                     <!--</li>-->
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" id="imagem-tab" data-toggle="tab" href="#imagem" role="tab" aria-controls="imagem" aria-selected="true">Banners</a>
-                    </li>
-                    <li class="nav-item">
+                    </li> -->
+                    <!-- <li class="nav-item">
                         <a class="nav-link" id="perguntas-tab" data-toggle="tab" href="#perguntas" role="tab" aria-controls="perguntas" aria-selected="true">Perguntas</a>
-                    </li>
-                    <li class="nav-item">
+                    </li> -->
+                    <!-- <li class="nav-item">
                         <a class="nav-link" id="nossa-loja-tab" data-toggle="tab" href="#nossa-loja" role="tab" aria-controls="nossa-loja" aria-selected="true">Nossa Loja</a>
-                    </li>
-                    <li class="nav-item">
+                    </li> -->
+                    <!-- <li class="nav-item">
                         <a class="nav-link" id="na-midia-tab" data-toggle="tab" href="#na-midia" role="tab" aria-controls="na-midia" aria-selected="true">Na Mídia</a>
-                    </li>
+                    </li> -->
                 </ul>
 
                 <div class="tab-content" id="myTabContent">
