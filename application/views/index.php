@@ -135,32 +135,30 @@ if ($iphone || $ipad || $android || $palmpre || $ipod || $berry || $symbian == t
                     </div>
                 </div>
 
+                <h3 class="title">Adquira nosso livro:</h3>
                 <div class="row w-100 p-5">
-                    <h3 class="title">Adquira nosso livro:</h3>
                     <?php foreach ($destaques as $row) { ?>
                         <div class="col-md-3">
-                            <div class="card zoom mx-auto">
+                            <div class="card zoom h-100">
                                 <div class="card-body">
                                     <a href="<?php echo base_url('e9b8ed001f1726b0385dcfec2dbe2ea1/') . $row['servico_id'] ?>">
-                                        <div class="form-group row p-5 text-center">
+                                        <div class="text-center">
                                             <div class="text-center col-md-12">
                                                 <img class="image-card" src="<?php echo base_url($row['servico_imagem']) ?>">
                                             </div>
-                                            <div class="col-xl-12 m-auto">
-                                                <h4 class="m-4 p-0 title text-center">
-                                                    <?php echo ucfirst($row['servico_nome']) ?>
-                                                </h4>
-                                                <p class="card-text text-justify w-75 mx-auto">
-                                                    <?php echo ucfirst($row['servico_resumo']) ?>
-                                                </p>
-                                                <h6 class="card-text sub-title">
-                                                    <?php echo ucfirst($row['servico_subtitulo']) ?>
-                                                    | R$ <?php echo number_format($row['servico_valor'], 2, ',', '.') ?>
-                                                </h6>
-                                                <button class="btn btn-primary w-75 mx-auto text-uppercase">
-                                                    <span>Comprar</span>
-                                                </button>
-                                            </div>
+                                            <h4 class="m-4 p-0 title text-center">
+                                                <?php echo ucfirst($row['servico_nome']) ?>
+                                            </h4>
+                                            <p class="card-text text-justify w-75 mx-auto">
+                                                <?php echo ucfirst($row['servico_resumo']) ?>
+                                            </p>
+                                            <h6 class="card-text sub-title">
+                                                <?php echo ucfirst($row['servico_subtitulo']) ?>
+                                                | R$ <?php echo number_format($row['servico_valor'], 2, ',', '.') ?>
+                                            </h6>
+                                            <button class="btn btn-primary w-75 mx-auto text-uppercase">
+                                                <span>Comprar</span>
+                                            </button>
                                         </div>
                                     </a>
                                 </div>
